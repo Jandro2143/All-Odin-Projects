@@ -1,0 +1,27 @@
+.normal{
+    color:red;
+}
+
+.small{
+    color:red;
+    font-size:smaller;
+}
+
+.green{
+    background-color: green;
+    color:white;
+}
+
+.white{
+    background-color: white;
+    color:black;
+}
+
+.text{
+    color:green;
+}
+
+.text.child{
+    color:red;
+    font-size:smaller;
+}
