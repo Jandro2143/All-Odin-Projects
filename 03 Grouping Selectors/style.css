@@ -1,0 +1,13 @@
+#black{
+    background-color: black;
+    color:white;
+    font-style: helvetica;
+    font-size: 30px;
+}
+
+#yellow{
+    background-color: yellow;
+    color:black;
+    font-size: 30px;
+    border-color: grey;
+}
