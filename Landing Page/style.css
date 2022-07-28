@@ -1,0 +1,171 @@
+body {
+  margin: 0;
+  background: #eee;
+  font-family: Besley, serif;
+}
+
+.section-1 {
+  background: #1F2937;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+
+.logo {
+  color: white;
+  font-size: 40px;
+  font-weight: 900;
+  font-style: italic;
+  padding-left: 150px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-align: right;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 52px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.paragraph-left {
+  padding-left: 150px;
+  left: 0;
+  position: absolute;
+  padding-top: 50px;
+  margin-top: 40px;
+  margin-right: 900px;
+  color: white;
+  text-align: center;
+}
+
+.link {
+  position: absolute;
+  right: 0;
+  padding-right: 150px;
+}
+
+
+.border-1 {
+  width: 1903px;
+  height: 500px;
+  padding-top: 50px;
+  margin-top: -10px;
+  background: #1F2937;
+}
+
+.style{
+  text-align: center;
+}
+
+.container {
+  display: flex; 
+  justify-content: center; 
+  gap: 200px; 
+  align-items: center;
+}
+
+
+.info {
+  max-width: 150px;
+}
+
+.pirate{
+  width: 100%;
+  height: auto;
+}
+.zoro{
+  width: 100%;
+  height: auto;
+}
+.sanji{
+  width: 100%;
+  height: auto;
+}
+.ace{
+  width: 100%;
+  height: auto;
+}
+
+.Straw {
+  position: absolute;
+  right: 0;
+  padding-top: 20px;
+  padding-right: 300px;
+  width: 550px;
+  height: 300px;
+  margin-top: 40px;
+  display: block;
+}
+
+
+.border-2 {
+  width: 1903px;
+  height: 500px;
+  padding-top: 50px;
+  margin-top: 30px;
+  background: #d3d5da;
+}
+
+.Luffy-Quote{
+  font-size: 40px;
+}
+
+.Luffy-Quote-right{
+  font-size: 40px;
+  text-align: right;
+}
+
+.border-3 {
+  width: 1903px;
+  height: 600px;
+  padding-top: 50px;
+  margin-top: 30px;
+}
+
+.button-border{
+  width: 1000px;
+  height: 150px;
+  padding-top: 50px;
+  margin-top: 300px;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  background-color: #3882F6;
+}
+
+.Sign-Up{
+  position: absolute;
+  height: 40px;
+  width: 100px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  border: 1px solid;
+  margin-left: 250px;
+  margin-top: -75px;
+
+}
+
+.Time{
+  color: white;
+  padding-right: 350px;
+}
