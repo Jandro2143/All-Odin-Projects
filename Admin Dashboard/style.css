@@ -1,0 +1,126 @@
+.side {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 200px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: grey; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  .side a {
+    padding: 8px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: inline-block;
+  }
+
+  body{
+	background: #F3F7F8;
+}
+  
+
+  .side a:hover {
+    color: #f1f1f1;
+  }
+  
+
+  .main {
+    margin-left: 160px;
+    padding: 0px 10px;
+  }
+  
+
+
+a{
+	color: black;
+	text-transform: capitalize;
+	text-decoration: none;
+	cursor: pointer;
+}
+a:hover{
+	color: #707070;
+	text-decoration: none;
+}
+
+.quad-button > ul > li  > a {
+	font-family: 'Segoe UI';
+	font-weight: 600;
+	font-size: 20px;
+}
+
+
+.quad-button > ul > li {
+	display: inline-block;
+	list-style: none;
+	padding: 0 0 0 40px;
+}
+
+
+.main-nav {
+	min-height: 74px;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 40px 0 0;
+	box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    background-color: rgb(214, 202, 202);
+    width: 300px;
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-color: black;
+    border-radius: 5px;
+  }
+  
+  input {
+    all: unset;
+    font: 16px system-ui;
+    color: black;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+  }
+
+  button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+  }
+  
+.search{
+    padding-left: 220px;
+}
+
+.Projects{
+  padding-left: 220px;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: 350px 350px 350px;
+  grid-template-rows: 200px 200px 200px;
+}
+
+.grid-container > div{
+  box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  background-color: white;
+  border-radius: 25px;
+}
+
+.grtid-container img{
+  position:absolute;
+  right:16px;
+  bottom:8px; 
+}
